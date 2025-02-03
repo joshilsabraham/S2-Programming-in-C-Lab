@@ -1,3 +1,8 @@
+/*
+Author: Joshil S Abraham
+Date: 28/01/2025
+Description: C Program to find ASCII Value of a Character.
+							 */
 #include <stdio.h>
 int main()
 	{

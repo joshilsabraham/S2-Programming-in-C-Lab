@@ -1,8 +1,7 @@
-/*
-Author: Joshil S Abraham
-Date: 28/01/2025
-Description: C Program to find if the entered number is Even or Odd.
-						  		    */
+/* Author: Joshil S Abraham
+   Date: 28/01/2025
+   Description: C Program to find if the entered number is Even or Odd using Conditional Statements. */
+
 #include <stdio.h>
 int main()
 	{

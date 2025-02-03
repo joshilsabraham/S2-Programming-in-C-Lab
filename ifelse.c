@@ -1,3 +1,7 @@
+/* Author: Joshil S Abraham
+   Date: 28/01/2025
+   Description: C Program to check if the entered number is Even or Odd using if-else statement.*/
+
 #include <stdio.h>
 int main()
 	{

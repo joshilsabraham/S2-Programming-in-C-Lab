@@ -1,6 +1,6 @@
 /*	Author: Joshil S Abraham
 	Date: 28/01/2025
-	Description: C Program to find the Largest of Three Number 	*/
+	Description: C Program to find the Largest of Three Numbers using nested if statements. 	*/
 
 #include <stdio.h>
 int main()

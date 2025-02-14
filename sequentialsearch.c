@@ -1,27 +1,51 @@
+/*
+    Name: Joshil S Abraham
+    Date: 11/02/2025
+    Description: C Program to perform a sequential search in a one-dimensional array.
+*/
+
 #include <stdio.h>
-int main(){
-  int size,i;
-  printf("Enter the number of Elements:");
-  scanf("%d",&size);
-  int arr[size];
-  printf("Enter the Elements:");
-  for(i=0;i<size;i++){
-      scanf("%d",&arr[i]);
-  }
-  int element;
-  printf("Enter the element to search:");
-  scanf("%d",&element);
-  int flag=0;
-  for(i=0;i<size;i++){
-      if(arr[i]==element){
-          int index=i;
-          printf(%d occurs in the index %d",key,i);
-          flag=1;
-      }
-  }
-  if(flag!=1){
-      printf("No Match!");
-  }
-  printf("\n"); 
-  return 0;
+
+int main() {
+    int size, i;
+
+    // Input array size
+    printf("Enter the number of elements: ");
+    scanf("%d", &size);
+
+    // Handle zero or negative array size
+    if (size <= 0) {
+        printf("Invalid array size!\n");
+        return 1;
+    }
+
+    int arr[size];
+
+    // Input array elements
+    printf("Enter the elements: ");
+    for (i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    int element, flag = 0;
+    
+    // Input the element to search
+    printf("Enter the element to search: ");
+    scanf("%d", &element);
+
+    // Perform sequential search
+    for (i = 0; i < size; i++) {
+        if (arr[i] == element) {
+            printf("%d occurs at index %d\n", element, i);
+            flag = 1;
+            break; // Exit loop once found
+        }
+    }
+
+    // If element is not found
+    if (!flag) {
+        printf("No match found!\n");
+    }
+
+    return 0;
 }

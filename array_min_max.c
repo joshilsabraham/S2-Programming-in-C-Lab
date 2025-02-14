@@ -1,3 +1,8 @@
+/*	Author: Joshil S Abraham
+	Date: 11/02/2025
+	Description: C Program to input elements into a one-dimensional array, 
+                 find the minimum and maximum elements and display their positions. 	*/
+
 #include <stdio.h>
 int main() {
     int size;
@@ -12,23 +17,27 @@ int main() {
         scanf("%d", &arr[i]) != 1) 
     }
     
-    // Initialize min and max with first element
+    // Initialize min and max with first element 
     min = max = arr[0];
+    
+    //Initialize positions of minimum and maximum element
+    int p1,p2;
     
     // Find minimum and maximum elements
     for (int i = 1; i < size; i++) {
         if (arr[i] < min) {
             min = arr[i];
+            p1=i;
         }
         if (arr[i] > max) {
             max = arr[i];
+            p2=i;
         }
     }
     
     // Display results
-    printf("Minimum element: %d\n", min);
-    printf("Maximum element: %d\n", max);
+    printf("%d is the minimum element in the index position %d\n",min,p1);
+    printf("%d is the maximum element in the index position %d\n", max,p2);
     
     return 0;
-}
-
+}                    

@@ -7,6 +7,7 @@
 #include <stdio.h>
 int main() {
     int size;
+    
     // Array Declaration
     printf("Enter the size of the array: ");
     scanf("%d", &size);

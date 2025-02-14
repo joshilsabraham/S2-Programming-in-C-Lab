@@ -1,7 +1,8 @@
-/*	Author: Joshil S Abraham
-	Date: 11/02/2025
-	Description: C Program to input elements into a one-dimensional array, 
-                 find the minimum and maximum elements and display their positions. 	*/
+/*	
+    Author: Joshil S Abraham
+    Date: 11/02/2025
+    Description: C Program to input elements into a one-dimensional array, find the minimum and maximum elements and display their positions. 	
+*/
 
 #include <stdio.h>
 int main() {

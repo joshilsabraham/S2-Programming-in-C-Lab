@@ -1,3 +1,9 @@
+/*  
+    Author: Joshil S Abraham  
+    Date: 25/02/2025  
+    Description: C Program to input two strings and compare them using the strcmp() function.  
+*/
+
 #include <stdio.h>
 #include <string.h>
 int main(){

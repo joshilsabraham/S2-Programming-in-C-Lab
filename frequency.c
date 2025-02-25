@@ -1,3 +1,9 @@
+/*  
+    Author: Joshil S Abraham  
+    Date: 25/02/2025  
+    Description: C Program to count the frequency of each character in a given string.  
+*/
+
 #include <stdio.h>
 #include <string.h>
 int main(){

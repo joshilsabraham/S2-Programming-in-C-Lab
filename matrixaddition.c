@@ -1,3 +1,9 @@
+/*  
+    Author: Joshil S Abraham  
+    Date: 18/02/2025  
+    Description: C Program to input two matrices and perform matrix addition on them.  
+*/
+
 #include <stdio.h>
 int main(){
 	int rows,cols;

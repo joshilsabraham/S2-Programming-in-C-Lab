@@ -1,3 +1,9 @@
+/*  
+    Author: Joshil S Abraham  
+    Date: 25/02/2025  
+    Description: C Program to reverse a string entered by the user without using string library.
+*/
+
 #include <stdio.h>
 int main(){
 	char str[50],temp;

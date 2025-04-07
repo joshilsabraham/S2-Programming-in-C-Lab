@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to print the Average of a One-Dimensional Array. 	
+*/
+
 #include <stdio.h>
 int main(){
 	int average,n,i,sum;

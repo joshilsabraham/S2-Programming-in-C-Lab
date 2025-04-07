@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to calculate the Area of a Circle. 	
+*/
+
 #include <stdio.h>
 #define PI 3.14
 int main()

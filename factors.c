@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to print all of a Given Number's Divisors. 	
+*/
+
 #include <stdio.h>
 int main(){
 	int num;

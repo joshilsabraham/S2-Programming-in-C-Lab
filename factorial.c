@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to Calculate the Factorial of a Given Number. 	
+*/
+
 #include <stdio.h>
 int main(){
 	int number,i=1,fact=1;

@@ -1,54 +1,43 @@
-/*
-   Name: Joshil S Abraham
+/* Name: Joshil S Abraham
    Date: 04/02/2025
    Description: Program for a simple calculator, taking 
-                two numbers and an operator as input and
-                performing the corresponding operation.
-*/
-
+   		two numbers and an operator as input and
+   		performing the corresponding operaton. */
 #include <stdio.h>
-
-int main() {
-    int num1, num2;
-    char operator;
-
-    // Input two numbers
-    printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
-
-    // Input operator
-    printf("Enter an operator (+, -, *, /, %): ");
-    scanf(" %c", &operator);
-
-    // Perform operation based on user input
-    switch (operator) {
-        case '+':
-            printf("%d + %d = %d\n", num1, num2, num1 + num2);
-            break;
-        case '-':
-            printf("%d - %d = %d\n", num1, num2, num1 - num2);
-            break;
-        case '*':
-            printf("%d * %d = %d\n", num1, num2, num1 * num2);
-            break;
-        case '/':
-            if (num2 == 0) {
-                printf("Error: Division by zero is not allowed!\n");
-            } else {
-                printf("%d / %d = %.2f\n", num1, num2, (float)num1 / num2);
-            }
-            break;
-        case '%':
-            if (num2 == 0) {
-                printf("Error: Modulus by zero is not allowed!\n");
-            } else {
-                printf("%d %% %d = %d\n", num1, num2, num1 % num2);
-            }
-            break;
-        default:
-            printf("Invalid operator! Please use +, -, *, /, or %.\n");
-            break;
-    }
-
-    return 0;
+int main(){
+	int num1,num2;
+	char operator;
+	printf("Enter Two Numbers:");
+	scanf("%d %d",&num1,&num2);
+	printf("1.Add\n2.Difference\n3.Multiply\n4.Divide\n5.Modulus\nEnter Your Choice: ");
+	scanf(" %c",&operator);
+	switch(operator){
+		case'1':
+			printf("%d+%d=%d",num1,num2,num1+num2);
+			break;
+		case'2':
+			printf("%d-%d=%d",num1,num2,num1-num2);
+			break;
+		case'3':
+			printf("%dx%d=%d",num1,num2,num1*num2);
+			break;
+		case'4':
+			if ((num1==0)||(num2==0)){
+				printf("Cannot Divide by Zero!");
+				break;
+				}
+			else{
+				float divide= (float) num1/num2;
+				printf("%d/%d=%f",num1,num2,divide);
+				break;
+				}
+		case'5':
+			printf("%d%%%d=%d",num1,num2,num1%num2);
+			break;
+		default:
+			printf("Invalid Operation");
+			break;
+		}
+		printf("\n");
+	return 0;
 }

@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to Check if a Number is Odd or Even using Conditional Statements. 	
+*/
+
 #include <stdio.h>
 int main()
 	{

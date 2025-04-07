@@ -1,3 +1,9 @@
+/*	
+    Author: Joshil S Abraham
+    Date: 
+    Description: C Program to print how many times each character appears in the string.	
+*/
+
 #include <stdio.h>
 #include <string.h>
 int main(){

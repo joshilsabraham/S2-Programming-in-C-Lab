@@ -14,7 +14,7 @@ int main(){
 	printf("Enter the employee details:\n");
 	for(i=0;i<n;i++){
 		printf("Employee %d Name: ",i+1);
-		scanf("%s",employee[i].name);
+		scanf("%s",&employee[i].name);
 		printf("ID: ");
 		scanf("%d",&employee[i].ID);
 		printf("Salary: ");
